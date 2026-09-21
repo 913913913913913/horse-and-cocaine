@@ -1,17 +1,18 @@
       body {
-        background-color: #141414 ;
+        background-color: #303030 ;
+        font-family: 'SFArchRival', sans-serif;
       }
 .maincontainer {
       background-color: #adadad ;
-      width: 690px ;
-      box-shadow:#000000 2px 2px 2px ;
+      width: 890px ;
+      box-shadow:#000000 0px 0px 10px ;
       padding: 5px ;
-      max-width: 690px ;
+      max-width: 890px ;
       margin: 0 auto ;
 }
 ul {
  background-color: #000000;
- width: 700px;
+ width: 900px;
  height: 25px;
   list-style-type: none;
   margin: 0;
@@ -20,6 +21,7 @@ ul {
   display: flex;
   justify-content: center;
   text-indent: 10px;
+  box-shadow:#000000 0px 0px 10px ;
 }
 ul li { 
   float: left;
@@ -37,3 +39,24 @@ display:block;
   align-items: center;
   justify-content: center;
 }
+@font-face {
+  font-family: 'SFArchRival';
+  src: url('fonts/SF_Arch_Rival.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.subContainer1 {
+  background-color: #d6d6d6 ;
+  width: 300px ;
+  border:#000000 2px solid ;
+}
+.title {
+  display: flex;   
+  align-items: center;
+  justify-content: center;
+}
+.thosethings {
+  display: flex;   
+  margin-right: 100px;
+} 
